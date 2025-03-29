@@ -43,5 +43,5 @@ else()
 endif()
 
 include_directories( ${OPENGL_INCLUDE_DIRS} )
-#include_directories(include/)
+include_directories(include/)
 target_link_libraries(${EXE_NAME} glad glm::glm glfw ${OPENGL_LIBRARIES} )
